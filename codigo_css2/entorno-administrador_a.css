@@ -1,0 +1,346 @@
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/* MODIFICAR ENCABEZADO*/
+
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+header{
+	padding:20px 0px ;
+	width: 100%;
+	height: 5%;
+	max-width: 100%;
+    background: #545454;
+    position:relative;
+    float: left;
+	
+}
+#header{
+	margin: auto;
+	width: 100%;
+	font-family:arial;
+}
+
+ul, ol {
+	list-style: none;
+}
+
+.nav li a{
+background-color: #000;
+color: #fff;
+text-decoration: none;
+padding: 11px 25px;
+display: block;
+border-radius: 15px;
+}
+.nav li a:hover{
+	background-color:#434343;
+}
+.nav > li{
+
+	float: left;
+}
+
+.nav li ul{
+	display:none;
+	position: absolute;
+	min-width: 14px;
+}
+.nav li:hover >ul{
+	display: block;
+
+}
+.nav li ul li{
+	position: relative;
+}
+.nav li img{
+	padding: 5px .5px;
+	width: 110px;
+	height: 60px;
+	position:relative;
+	top: -20px;
+	left: 10px;
+}
+
+.nav li .udec{
+	padding: -5px .5px;
+	width: 140px;
+	height: 70px;
+	position:relative;
+	top: -20px;
+	left: 10px;
+}
+
+/*////////////////////////////////////////////TERMINA MODIFICACION DE MI ENCABEZADO////////////////////////////////////////////////////*/
+
+
+
+
+
+
+/*/////////////////////////////////////////////////INICIO DE PANEL LATERAL IZQUIERDO/////////////////////////////////////////////////////*/
+
+
+.menu{
+	width: 15.2%;
+	height: 100%;
+	position: relative;
+
+	background: #404040;
+    float: left;
+}
+
+.menu ul{
+	padding-top: 40px;
+	margin-left: -20px;
+	margin-right: 20px;
+}
+
+.menu ul a{
+	text-decoration: none;
+	color: #f2f2f2;
+	font: 15px verdana;
+	display: block;
+	background: blue;
+	margin-bottom: 20px;
+	padding: 10px 20px 10px 45px;
+	border-radius: 15px;
+	transition:background .6s, margin-left .6s, margin-right.6s;
+	-webkit-transition:background .6s, margin-left .6s, margin-right.6s;
+	-moz-transition:background .6s, margin-left .6s, margin-right.6s;
+	-o-transition:background .6s, margin-left .6s, margin-right.6s;
+}
+.menu ul a:hover{
+	margin-right: -40px;
+	margin-left: 25px;
+	background: red;
+
+}
+/*////////////////////////////////////////////////////FIN DE PANEL LATERAL IZQUIERDO//////////////////////////////////////////////////////*/
+
+
+
+
+/*////////////////////////////////////DENTRO DE ESTE CUADRO COLOCAREMOS TODA NUESTRA INFORMACION//////////////////////////////////////////*/
+
+.formato{
+	width: 84.8%;
+	height: 100%;
+	position: static;
+	background: #000;
+    float: left;
+
+}
+
+
+/*////////////////////////////////////FIN DEL CUADRO DONDE COLOCAREMOS TODA NUESTRA INFORMACION//////////////////////////////////////////*/
+
+
+
+
+
+
+
+/*//////////////////////////////////////////////HACER CUADRO CON LA INFORMACION DEL ADMINISTRADOR//////////////////////////////////////////*/
+
+.perfil{
+	position: relative;
+	top: 15px;
+	left: 20px;
+	text-align: left;
+	border: 5px solid #787272;
+	width: 25%;
+	height: 68%;
+	background: #4C4848;
+    float: left;
+
+}
+
+.perfil h2{
+ font-size: 20px;
+ color: white;
+ text-align: center;
+}
+
+form div .table{
+
+	text-align:;
+	font-size: 11.9px;
+	color: white;
+	width: 100%;
+	height: 80%;
+	float: left;
+	
+}
+
+
+form div .table td{
+
+	background: #787272;
+	border: 5px solid #787272;
+}
+
+
+form div .table tr {
+
+	background: white;
+	
+}
+
+.campos{
+	width: 50%;
+	height: 5%;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	position: relative;
+	top: 30px;
+	left: 450px;
+	border: 5px solid #787272;
+	clear: both;
+}
+
+/*///////////////////////AQUI TERMINA EL CUADRO CON LA INFORMACION DEL ADMINISTRADOR/////////////////////////////////////////////////////*/
+
+
+
+
+
+
+
+
+
+/*//////////////////////////////////////////////////////////////////TABLA MODIFICAR DATOS DEL ADMIN /////////////////////////////////////////////////////////*/
+ .datos {
+padding: 2px 20px;
+position: relative;
+top:15px;
+left: 30px; 
+width: 65%;
+height: 68%;
+border: 5px solid #787272;
+text-align: center;
+background: #787272	;
+float: left;
+}
+
+ .datos label{
+ font-size: 15px;
+ padding: 10px 0px;
+ float:inherit;
+ color: white;
+}
+
+.datos label p{
+text-align: center;
+}
+.datos input {
+
+text-align: center;
+color: white;
+}
+
+
+input, textarea{
+	float: center;
+		 display: inline-block;
+	margin-bottom: 10px;
+	width: 15%;
+	padding: 10px 10px;
+	border:  10px;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing-:border-box;
+	box-sizig:border-box;
+	border: 5px solid #C6BDBD;
+
+}  
+
+
+
+input[type="submit"]{
+font-size: 15px;
+margin-bottom: 20px;
+background: #227A9E;
+color: white;
+border: none;
+}
+
+input[type="submit"]:hover{
+	background: #34ACDE;
+	cursor: pointer;
+	}
+
+
+
+
+th, td {
+	position: relative;
+	top: 1px;
+   width: 180px;
+   text-align: left;
+   vertical-align: top;
+ 
+}
+
+ td input {
+ 	position: relative;
+ 	right: 20px;
+   width: 100%;
+   height:35px;
+   text-align: left;
+   vertical-align: top;
+  
+
+}
+
+/*///////////////////////////////////AQUI TERMINA LA TABLA PADA MODIFICAR LOS DATOS DEL ADMINISTRADOR//////////////////////////////////////*/
+
+
+
+
+/*/////////////////////////////////////////////////////////////////HACER FOOTER//////////////////////////////////////////////////*/
+
+
+footer{
+	padding: 0px 10px;
+	background: #545454;
+	width: 98.5%;
+	height: 30%;
+    position: relative;
+    top: 0%;
+	clear: both;
+	
+}
+
+.primero{
+	width: 50%;
+	padding: 0px 0px;
+	font-size: 11px;
+	  float: left;
+
+}
+.primero div {
+	
+    
+	font-size: 14px;
+	text-align: inherit;
+}
+
+section div ul li  {
+	
+   list-style: none;
+	
+
+}
+
+.segundo div {
+	padding: 1px 30px;
+	font-size: 14px;
+	text-align:right;
+
+}
+
+/*///////////////////////////////////////////AQUI TERMINA EL FOOTER*/

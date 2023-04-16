@@ -1,0 +1,237 @@
+/*//////////////////////////////////////////////////// MODIFICAR ENCABEZADO////////////////////////////////////////////*/
+
+header{
+	padding:35px 0px ;
+	width: 100%;
+	height: 11%;
+	max-width: 100%;
+background: #545454;
+	
+}
+*{
+	padding: 0px;
+	margin: 0px;
+}
+#header{
+	margin: auto;
+	width: 100%;
+	font-family:arial;
+}
+
+ul, ol {
+	list-style: none;
+}
+
+.nav li a{
+background-color: #000;
+color: #fff;
+text-decoration: none;
+padding: 20px 25px;
+display: block;
+border-radius: 15px;
+}
+.nav li a:hover{
+	background-color:#434343;
+}
+.nav > li{
+
+	float: left;
+}
+
+.nav li ul{
+	display:none;
+	position: absolute;
+	min-width: 140px;
+}
+.nav li:hover >ul{
+	display: block;
+
+}
+.nav li ul li{
+	position: relative;
+}
+
+
+
+
+
+
+
+
+
+/*//////////////////////////////////////////////////////////HACER SLIDER AUTOMATICO//////////////////////////////////////////////////*/
+
+/*hcer slider automatico*/
+
+.slider{
+	overflow: hidden;
+	width: 68%;
+	margin: none;
+		float: right;
+
+
+}
+.slider ul{
+	display: flex;
+	padding:0px; 
+	width: 400%;
+	animation:cambio 20s infinite alternate;
+
+
+    
+}
+.slider li{
+	width: 100%;
+	list-style: none;
+	}
+.slider img{
+    
+	padding: 0px;
+	width: 100%;
+	list-style: none;
+	float: left;
+	}
+
+@keyframes cambio{
+	0%{margin-left: 0px;}
+	20%{margin-left: 0px;}
+
+	25%{margin-left: -100%;}
+	45%{margin-left: -100%;}
+
+	50%{margin-left: -200%;}
+	70%{margin-left: -200%;}
+
+	75%{margin-left: -300%;}
+	100%{margin-left: -300%;}
+
+}
+
+
+
+
+
+
+
+
+/*/////////////////////////////////////////////////////////////////INICIOCUADRO DE LOGEO GUARDA SALIDA////////////////////////////////////////////*/
+
+ form{
+	width: 25%;
+	border: 1px solid #ccc;
+	margin: 20px;
+	padding: 20px;
+}  
+label{
+	font-size: 12px;
+    display:block;
+    width: 100%;
+}  
+
+
+form div h1{
+	text-align: center;
+}
+
+
+input, textarea{
+	margin-bottom: 20px;
+	width: 100%;
+	padding: 10px;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing-:border-box;
+	box-sizig:border-box;
+	border: 1px solid red;
+}  
+
+input:focus,textarea:focus{
+border: 5px solid blue;
+}
+
+
+input[type="submit"]{
+font-size: 20px;
+margin-bottom: 5px;
+background: #227A9E;
+color: white;
+border: none;
+}
+input[type="submit"]:hover{
+	background: #34ACDE;
+	cursor: pointer;
+	}
+div form a {
+	height: 20px;
+	padding: 10px 5px;
+	font-size: 20px;
+	color: white;
+    display:block;
+	background: #A42828;
+	text-decoration: none;
+	 text-align:center;
+}
+div form a:hover{
+
+	background: #D33030;
+
+}
+
+form img{
+	position: relative;
+	left: 38%;
+}
+
+
+/*//////////////////////////////////////CUADRO DE LOGEO GUARDA SALIDA////////////////////////////////////////////////////////////////*/
+
+
+
+
+
+
+
+
+
+/*/////////////////////////////////////////////////////////////////HACER FOOTER//////////////////////////////////////////////////*/
+
+
+
+footer{
+	background: #545454;
+	width: 100%;
+	height: 30%;
+	display:block;
+	clear: both;
+	
+}
+
+.primero{
+	width: 50%;
+	padding: 0px 0px;
+	font-size: 11px;
+	  float: left;
+
+}
+.primero div {
+	
+    
+	font-size: 14px;
+	text-align: inherit;
+}
+
+section div ul li  {
+	
+   list-style: none;
+	
+
+}
+
+
+
+
+.segundo div {
+	padding: 1px 30px;
+	font-size: 14px;
+	text-align:right;
+
+}

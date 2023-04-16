@@ -1,0 +1,451 @@
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/* MODIFICAR ENCABEZADO*/
+
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+header{
+	padding:20px 0px ;
+	width: 100%;
+	height: 5%;
+	max-width: 100%;
+    background: #545454;
+    position:relative;
+    float: left;
+    clear: both;
+	
+}
+#header{
+	margin: auto;
+	width: 100%;
+	font-family:arial;
+}
+
+ul, ol {
+	list-style: none;
+}
+
+.nav li a{
+background-color: #000;
+color: #fff;
+text-decoration: none;
+padding: 11px 25px;
+display: block;
+border-radius: 15px;
+}
+.nav li a:hover{
+	background-color:#434343;
+}
+.nav > li{
+
+	float: left;
+}
+
+.nav li ul{
+	display:none;
+	position: absolute;
+	min-width: 14px;
+}
+.nav li:hover >ul{
+	display: block;
+
+}
+.nav li ul li{
+	position: relative;
+}
+.nav li img{
+	padding: 5px .5px;
+	width: 110px;
+	height: 60px;
+	position:relative;
+	top: -20px;
+	left: 10px;
+}
+
+.nav li .udec{
+	padding: -5px .5px;
+	width: 140px;
+	height: 70px;
+	position:relative;
+	top: -20px;
+	left: 10px;
+}
+
+/*////////////////////////////////////////////TERMINA MODIFICACION DE MI ENCABEZADO////////////////////////////////////////////////////*/
+
+
+
+
+
+
+/*/////////////////////////////////////////////////INICIO DE PANEL LATERAL IZQUIERDO/////////////////////////////////////////////////////*/
+
+
+.menu{
+	width: 15.2%;
+	height: 180%;
+	position: relative;
+	
+	background: #4C4848;
+    float: left;
+}
+
+.menu ul{
+	padding-top: 40px;
+	margin-left: -20px;
+	margin-right: 20px;
+}
+
+.menu ul a{
+	text-decoration: none;
+	color: #f2f2f2;
+	font: 15px verdana;
+	display: block;
+	background: blue;
+	margin-bottom: 20px;
+	padding: 10px 20px 10px 45px;
+	border-radius: 15px;
+	transition:background .6s, margin-left .6s, margin-right.6s;
+	-webkit-transition:background .6s, margin-left .6s, margin-right.6s;
+	-moz-transition:background .6s, margin-left .6s, margin-right.6s;
+	-o-transition:background .6s, margin-left .6s, margin-right.6s;
+}
+.menu ul a:hover{
+	margin-right: -40px;
+	margin-left: 25px;
+	background: red;
+
+}
+/*////////////////////////////////////////////////////FIN DE PANEL LATERAL IZQUIERDO//////////////////////////////////////////////////////*/
+
+
+
+
+/*////////////////////////////////////DENTRO DE ESTE CUADRO COLOCAREMOS TODA NUESTRA INFORMACION//////////////////////////////////////////*/
+
+.formato{
+	width: 84.8%;
+	height: 180%;
+	position: static;
+	background: #000;
+    float: left;
+
+}
+
+
+/*////////////////////////////////////FIN DEL CUADRO DONDE COLOCAREMOS TODA NUESTRA INFORMACION//////////////////////////////////////////*/
+
+
+
+
+
+
+/*///////////////////////////INICIO DEL FORMATO PARA REGISTRAR Y MODIFICAR ESTACIONAMINETOS///////////////////////*/
+
+.parquing{
+
+	background: #4C4848;
+	width: 97%;
+	height: 15%;
+	position: relative;
+	top: 20px;
+	left: 20px;
+	border: 5px solid #787272;	
+	overflow-x:scroll;
+
+
+}
+
+
+
+.parquing h1 {
+text-align: center;
+color: white;
+	}
+
+.parquing table{
+
+    border: 5px solid #787272;
+	background: #4C4848;
+	width: 98%;
+	height: 10%;
+}
+
+
+.parquing table td label{
+font-size: 20px;
+}
+
+.parquing table td input{
+font-size: 20px;
+}
+
+.parquing table td select{
+font-size: 20px;
+}
+
+.parquing .btn{
+	border-radius: 15px;
+	background: #E0D5D5;
+	font-size: 20px;
+	width: 150px;
+	height: 50px;
+}
+
+.parquing .btn:hover{
+	background: #C8A2A2;
+}
+
+
+
+
+
+
+/*///////////////////////////FIN DEL FORMATO PARA REGISTRAR Y MODIFICAR ESTACIONAMINETOS///////////////////////*/
+
+
+
+
+/*///////////////////INICIO DEL SEGUNDO FORMULARRIO PARA HACER CONSULTAS ESPECIFICAS///////////////////////////*/
+
+
+.parquing2{
+	border: 5px solid #787272;
+	background:#4C4848;
+ 
+	width: 97%;
+    height: 15%;
+    position: relative;
+    top:40px;
+    left: 20px; 
+    overflow-y: scroll;
+  
+}
+
+.parquing2 .tabla_a{
+	 width:100%;
+	 background: #BEA7A7;
+	 font-size: 25px;
+  
+}
+
+.parquing2 .tabla_a input{
+
+	 width:250px;
+	 height: 30px;
+	 background: #BEA7A7;
+	 font-size: 20px;
+  
+}
+
+
+.parquing2 .tabla_b{
+	 width:100%;
+	 background: 787272;
+  
+}
+
+.parquing2 .tabla_b tr:hover{
+	 background: #E7E7E7;
+	 color: red;
+  
+}
+/*///////////////////FIN DEL SEGUNDO FORMULARRIO PARA HACER CONSULTAS ESPECIFICAS//////////////////////////////*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*///////////////////// INICIO DEL FORMATOS PARA QUE ME MUESTRE TODOS LOS ESTACIONAMIENTOS//////////////////////*/
+.muestra_estacionamientos{
+	position: relative;
+	top:80px; 
+	left: 20px;
+	width: 45%;
+	height: 25%;
+	border: 5px solid #787272;
+	overflow-y:scroll;
+	float: left;
+	background: #4C4848;
+
+
+}
+
+.muestra_estacionamientos h1{
+	text-align: center;
+	color: white;
+}
+.muestra_estacionamientos tr td{
+	width: 10%;
+	height: 10%;
+text-align: center;
+color: white;
+
+}
+/*///////////////////////////////FIN DEL FORMATO PARA QUE ME MUESTRE TODOS LOS ESTACIONAMIENTOS//////////////////*/
+
+
+
+
+
+/*/////////// INICIO DEL FORMATOS PARA QUE ME MUESTRE LOS ESTACIONAMIENTOS PARA DISCAPACITADOS//////////////////////*/
+
+.muestra_estacionamientos2{
+	position: relative;
+	top:80px; 
+	left: 50px;
+	width: 45%;
+	height: 25%;
+	border: 5px solid #787272;
+	background: #4C4848;
+	overflow-y:scroll;
+
+}
+
+.muestra_estacionamientos2 h1{
+	text-align: center;
+	color: white;
+}
+.muestra_estacionamientos2 tr td{
+	width: 10%;
+	height: 10%;
+text-align: center;
+color: white;
+
+}
+
+
+
+
+/*/////////// FIN DEL FORMATOS PARA QUE ME MUESTRE LOS ESTACIONAMIENTOS PARA DISCAPACITADOS//////////////////////*/
+
+
+
+
+
+/*///////////////////// INICIO DEL FORMATOS PARA QUE ME MUESTRE TODOS LOS ESTACIONAMIENTOS ACTIVOS//////////////////////*/
+.muestra_estacionamientos3{
+	position: relative;
+	top:120px; 
+	left: 20px;
+	width: 45%;
+	height: 30%;
+	border: 5px solid #787272;
+	background: #4C4848;
+	overflow-y:scroll;
+	float: left;
+}
+
+.muestra_estacionamientos3 h1{
+	text-align: center;
+	color: white;
+}
+.muestra_estacionamientos3 tr td{
+	width: 10%;
+	height: 10%;
+text-align: center;
+color: white;
+
+}
+
+/*///////////////////// INICIO DEL FORMATOS PARA QUE ME MUESTRE TODOS LOS ESTACIONAMIENTOS ACTIVOS//////////////////////*/
+
+
+
+
+
+/*///////////////////// INICIO DEL FORMATOS PARA QUE ME MUESTRE TODOS LOS ESTACIONAMIENTOS INACTIVOS//////////////////////*/
+.muestra_estacionamientos4{
+	position: relative;
+	top:120px; 
+	left: 50px;
+	width: 45%;
+	height: 30%;
+	border: 5px solid #787272;
+	background: #4C4848;
+	overflow-y:scroll;
+	float: left;
+}
+
+.muestra_estacionamientos4 h1{
+	text-align: center;
+	color: white;
+}
+.muestra_estacionamientos4 tr td{
+	width: 10%;
+	height: 10%;
+text-align: center;
+color: white;
+
+}
+
+/*///////////////////// INICIO DEL FORMATOS PARA QUE ME MUESTRE TODOS LOS ESTACIONAMIENTOS INACTIVOS//////////////////////*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*/////////////////////////////////////////////////////////////////HACER FOOTER//////////////////////////////////////////////////*/
+
+
+footer{
+	padding: 0px 10px;
+	background: #545454;
+	width: 98.5%;
+	height: 30%;
+    position: relative;
+    clear: both;
+	
+}
+
+.primero{
+	width: 50%;
+	padding: 0px 0px;
+	font-size: 11px;
+	  float: left;
+
+}
+.primero div {
+	
+    
+	font-size: 14px;
+	text-align: inherit;
+}
+
+section div ul li  {
+	
+   list-style: none;
+	
+
+}
+
+.segundo div {
+	padding: 1px 30px;
+	font-size: 14px;
+	text-align:right;
+
+}
+
+/*///////////////////////////////////////////AQUI TERMINA EL FOOTER*/

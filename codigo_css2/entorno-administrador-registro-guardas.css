@@ -1,0 +1,327 @@
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/* MODIFICAR ENCABEZADO*/
+
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+header{
+	padding:20px 0px ;
+	width: 100%;
+	height: 5%;
+	max-width: 100%;
+    background: #545454;
+    position:relative;
+    float: left;
+    clear: both;
+	
+}
+#header{
+	margin: auto;
+	width: 100%;
+	font-family:arial;
+}
+
+ul, ol {
+	list-style: none;
+}
+
+.nav li a{
+background-color: #000;
+color: #fff;
+text-decoration: none;
+padding: 11px 25px;
+display: block;
+border-radius: 15px;
+}
+.nav li a:hover{
+	background-color:#434343;
+}
+.nav > li{
+
+	float: left;
+}
+
+.nav li ul{
+	display:none;
+	position: absolute;
+	min-width: 14px;
+}
+.nav li:hover >ul{
+	display: block;
+
+}
+.nav li ul li{
+	position: relative;
+}
+.nav li img{
+	padding: 5px .5px;
+	width: 110px;
+	height: 60px;
+	position:relative;
+	top: -20px;
+	left: 10px;
+}
+
+.nav li .udec{
+	padding: -5px .5px;
+	width: 140px;
+	height: 70px;
+	position:relative;
+	top: -20px;
+	left: 10px;
+}
+
+/*////////////////////////////////////////////TERMINA MODIFICACION DE MI ENCABEZADO////////////////////////////////////////////////////*/
+
+
+
+
+
+
+/*/////////////////////////////////////////////////INICIO DE PANEL LATERAL IZQUIERDO/////////////////////////////////////////////////////*/
+
+
+.menu{
+	width: 15.2%;
+	height: 100%;
+	position: relative;
+	
+	background: #404040;
+    float: left;
+}
+
+.menu ul{
+	padding-top: 40px;
+	margin-left: -20px;
+	margin-right: 20px;
+}
+
+.menu ul a{
+	text-decoration: none;
+	color: #f2f2f2;
+	font: 15px verdana;
+	display: block;
+	background: blue;
+	margin-bottom: 20px;
+	padding: 10px 20px 10px 45px;
+	border-radius: 15px;
+	transition:background .6s, margin-left .6s, margin-right.6s;
+	-webkit-transition:background .6s, margin-left .6s, margin-right.6s;
+	-moz-transition:background .6s, margin-left .6s, margin-right.6s;
+	-o-transition:background .6s, margin-left .6s, margin-right.6s;
+}
+.menu ul a:hover{
+	margin-right: -40px;
+	margin-left: 25px;
+	background: red;
+
+}
+/*////////////////////////////////////////////////////FIN DE PANEL LATERAL IZQUIERDO//////////////////////////////////////////////////////*/
+
+
+
+
+/*////////////////////////////////////DENTRO DE ESTE CUADRO COLOCAREMOS TODA NUESTRA INFORMACION//////////////////////////////////////////*/
+
+.formato{
+	width: 84.8%;
+	height: 100%;
+	position: static;
+	background: #000;
+    float: left;
+
+}
+
+
+/*////////////////////////////////////FIN DEL CUADRO DONDE COLOCAREMOS TODA NUESTRA INFORMACION//////////////////////////////////////////*/
+
+
+
+
+
+
+
+/*////////////////////////////////////AQUI INICIA TODO PARA MODIFICAR LO DEL REGISTRO DE LOS GUARDAS///////////////////////////////////////*/
+
+.guarda{
+	position: relative;
+
+	border: 5px solid #787272;
+	background: #4C4848;
+	width: 99%;
+	height: 40%;
+	position: relative;
+    clear: both;
+ 
+
+}
+
+.guarda table{
+	border: 5px solid #4C4848;
+	width: 100%;
+	height: 85%;
+	color: white;
+	text-align: center;
+	 clear: both;
+}
+
+.guarda .btn{
+	padding: 5px;
+	border:2px solid #4C4848;
+	background: #E0D5D5;
+	 clear: both;
+}
+
+
+.guarda  .btn:hover{
+	padding: 5px;
+	border:2px solid #787272;
+	background: #C8A2A2;
+	 clear: both;
+}
+
+.guarda input{
+	padding: 5px;
+	 clear: both;
+}
+
+.guarda input:hover{
+	border: 5px solid #C8A2A2;
+}
+
+.guarda select{
+	width: 185px;
+	padding: 5px;
+}
+
+/*////////////////////////////////////AQUI TERMINA TODO PARA MODIFICAR LO DEL REGISTRO DE LOS GUARDAS///////////////////////////////////////*/
+
+
+
+
+/*////////////////////////////////////////TABLA GENERAL DE INFORMACION DE GUARDAS REGISTRADOS/////////////////////////////////*/
+
+.consulta{
+	position: relative;
+	top: 25px;
+	width: 99%;
+	height: 25%;
+	background: #4C4848;
+	border: 5px solid #787272;
+	overflow-y:scroll; 
+	overflow-x:scroll; 
+
+}
+
+.consulta a{ 
+	font-size: 35px;
+    position: relative;
+    left: 60%;
+    color: white;
+
+}
+
+.consulta table{ 
+	text-align: center;
+    width: 200%;
+    color: white;
+}
+
+.consulta table tr:hover{ 
+	background: #D4D4D4;
+	color: red;
+}
+/*////////////////////////////////////////FIN TABLA GENERAL DE INFORMACION DE GUARDAS REGISTRADOS/////////////////////////////////*/
+
+
+
+
+
+
+
+/*TABLA PARA CONSULTAS ESPECIFICAS*/
+.deco{
+	position: relative;
+	top: 50px;
+   height: 15%;
+	overflow-y:scroll; 
+	border: 5px solid #787272;
+	background: #4C4848;
+}
+
+
+.deco a{
+    color: white;
+	font-size: 35px;
+	position: relative;
+	left: 60%;
+}
+
+
+.deco table{
+width: 200%;
+text-align: center;
+color: white;
+}
+
+
+/*FIN DE TABLA PARA CONSULTAS ESPECIFICAS*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*/////////////////////////////////////////////////////////////////HACER FOOTER//////////////////////////////////////////////////*/
+
+
+footer{
+	padding: 0px 10px;
+	background: #545454;
+	width: 98.5%;
+	height: 30%;
+    position: relative;
+    clear: both;
+	
+}
+
+.primero{
+	width: 50%;
+	padding: 0px 0px;
+	font-size: 11px;
+	  float: left;
+
+}
+.primero div {
+	
+    
+	font-size: 14px;
+	text-align: inherit;
+}
+
+section div ul li  {
+	
+   list-style: none;
+	
+
+}
+
+.segundo div {
+	padding: 1px 30px;
+	font-size: 14px;
+	text-align:right;
+
+}
+
+/*///////////////////////////////////////////AQUI TERMINA EL FOOTER*/

@@ -1,0 +1,381 @@
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/* MODIFICAR ENCABEZADO*/
+
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+header{
+	padding:20px 0px ;
+	width: 100%;
+	height: 5%;
+	max-width: 100%;
+    background: #545454;
+    position:relative;
+    float: left;
+	
+}
+#header{
+	margin: auto;
+	width: 100%;
+	font-family:arial;
+}
+
+ul, ol {
+	list-style: none;
+}
+
+.nav li a{
+background-color: #000;
+color: #fff;
+text-decoration: none;
+padding: 11px 25px;
+display: block;
+border-radius: 15px;
+}
+.nav li a:hover{
+	background-color:#434343;
+}
+.nav > li{
+
+	float: left;
+}
+
+.nav li ul{
+	display:none;
+	position: absolute;
+	min-width: 14px;
+}
+.nav li:hover >ul{
+	display: block;
+
+}
+.nav li ul li{
+	position: relative;
+}
+.nav li img{
+	padding: 5px .5px;
+	width: 110px;
+	height: 60px;
+	position:relative;
+	top: -20px;
+	left: 10px;
+}
+
+.nav li .udec{
+	padding: -5px .5px;
+	width: 140px;
+	height: 70px;
+	position:relative;
+	top: -20px;
+	left: 10px;
+}
+
+/*////////////////////////////////////////////TERMINA MODIFICACION DE MI ENCABEZADO////////////////////////////////////////////////////*/
+
+
+
+
+
+
+/*/////////////////////////////////////////////////INICIO DE PANEL LATERAL IZQUIERDO/////////////////////////////////////////////////////*/
+
+
+.menu{
+	width: 15.2%;
+	height: 200%;
+	position: relative;
+
+	background: black;
+    float: left;
+}
+
+.menu ul{
+	padding-top: 40px;
+	margin-left: -20px;
+	margin-right: 20px;
+}
+
+.menu ul a{
+	text-decoration: none;
+	color: #f2f2f2;
+	font: 15px verdana;
+	display: block;
+	background: blue;
+	margin-bottom: 20px;
+	padding: 10px 20px 10px 45px;
+	border-radius: 15px;
+	transition:background .6s, margin-left .6s, margin-right.6s;
+	-webkit-transition:background .6s, margin-left .6s, margin-right.6s;
+	-moz-transition:background .6s, margin-left .6s, margin-right.6s;
+	-o-transition:background .6s, margin-left .6s, margin-right.6s;
+}
+.menu ul a:hover{
+	margin-right: -40px;
+	margin-left: 25px;
+	background: red;
+
+}
+/*////////////////////////////////////////////////////FIN DE PANEL LATERAL IZQUIERDO//////////////////////////////////////////////////////*/
+
+
+
+
+/*////////////////////////////////////DENTRO DE ESTE CUADRO COLOCAREMOS TODA NUESTRA INFORMACION//////////////////////////////////////////*/
+
+.formato{
+	width: 84.8%;
+	height: 200%;
+	position: static;
+	background: #B5B5B5;
+    float: left;
+
+}
+
+
+/*////////////////////////////////////FIN DEL CUADRO DONDE COLOCAREMOS TODA NUESTRA INFORMACION//////////////////////////////////////////*/
+
+
+
+
+
+
+
+
+
+/* INICIO DE TABLA PARA MOSTRAR LA INFORMACION DE LAS PERSONAS EXTERNAS (internas) QUE HAN INGRESADO A LA UDEC*/
+.muestra_ingresos{
+	border: 5px solid #787272;
+	background: #4C4848;
+color: white;
+	position: relative;
+top: 30px;
+	overflow-y: scroll;
+}
+
+
+.muestra_ingresos h1{
+	text-align: center;
+}
+
+.muestra_ingresos table{
+width: 100%;
+text-align: center;
+color: white;
+}
+
+
+.muestra_ingresos table tr:hover{
+background: #E3D3D3;
+color: red;
+}
+/*FIN DE TABLA PARA MOSTRAR LA INFORMACIO DE LAS PERSONAS EXTERNAS (internas) QUE HAN INGRESADO A LA UDEC*/
+
+
+
+
+
+
+
+
+
+
+
+
+/* INICIO DE TABLA PARA MOSTRAR LA INFORMACION DE LAS PERSONAS EXTERNAS (internas) QUE HAN INGRESADO A LA UDEC*/
+.muestra_ingresosI{
+	border: 5px solid #787272;
+	background: #4C4848;
+color: white;
+	position: relative;
+top: 50px;
+	overflow-y: scroll;
+}
+
+
+.muestra_ingresosI h1{
+	text-align: center;
+}
+
+.muestra_ingresosI table{
+width: 100%;
+text-align: center;
+color: white;
+}
+
+
+.muestra_ingresosI table tr:hover{
+background: #E3D3D3;
+color: red;
+}
+/*FIN DE TABLA PARA MOSTRAR LA INFORMACIO DE LAS PERSONAS EXTERNAS (internas) QUE HAN INGRESADO A LA UDEC*/
+
+
+.p-internas{
+	position: relative;
+	top:120px;
+	border:5px solid #787272;
+	background: #4C4848;
+	width: 98%;
+	height: 150px;
+
+
+}
+
+.p-internas .btn{
+	position: relative;
+	left: 50%;
+	width: 110px;
+	height: 40px;
+    
+
+}
+
+
+.p-internas input{
+	width: 200px;
+	height: 30px;
+
+   
+}
+
+.p-internas table{
+	width: 10%;
+	position: relative;
+	left: 20px;
+	text-align: center;
+}
+
+.p-internas h1{
+	text-align: center;
+	
+}
+
+.tablapertenecen{
+	border: 5px solid #787272;
+	position: relative;
+	top:150px;
+	height: 250px;
+	overflow-y:scroll; 
+	background: #4C4848;
+}
+
+.tablapertenecen table{
+	width: 100%;
+	
+}
+
+.tablapertenecen h1{
+	text-align:  center;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.externas{
+	position: relative;
+	top:120px;
+	border:5px solid #787272;
+	background: #4C4848;
+	width: 98%;
+	height: 150px;
+
+
+}
+
+.externas .btn{
+	position: relative;
+	left: 50%;
+	width: 110px;
+	height: 40px;
+    
+
+}
+
+
+.externas input{
+	width: 200px;
+	height: 30px;
+
+   
+}
+
+.externas table{
+	width: 10%;
+	position: relative;
+	left: 20px;
+	text-align: center;
+}
+
+.externas h1{
+	text-align: center;
+	
+}
+
+
+
+/*/////////////////////////////////////////////////////////////////HACER FOOTER//////////////////////////////////////////////////*/
+
+
+footer{
+	padding: 0px 10px;
+	background: #545454;
+	width: 98.5%;
+	height: 30%;
+    position: relative;
+    top: 0%;
+	clear: both;
+	
+}
+
+.primero{
+	width: 50%;
+	padding: 0px 0px;
+	font-size: 11px;
+	  float: left;
+
+}
+.primero div {
+	
+    
+	font-size: 14px;
+	text-align: inherit;
+}
+
+section div ul li  {
+	
+   list-style: none;
+	
+
+}
+
+.segundo div {
+	padding: 1px 30px;
+	font-size: 14px;
+	text-align:right;
+
+}
+
+/*///////////////////////////////////////////AQUI TERMINA EL FOOTER*/

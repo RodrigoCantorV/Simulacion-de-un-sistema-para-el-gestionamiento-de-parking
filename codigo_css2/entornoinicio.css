@@ -1,0 +1,221 @@
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/* MODIFICAR ENCABEZADO*/
+
+header{
+	padding:35px 0px ;
+	width: 100%;
+	height: 11%;
+	max-width: 100%;
+background: #545454;
+	
+}
+*{
+	padding: 0px;
+	margin: 0px;
+}
+#header{
+	margin: auto;
+	width: 100%;
+	font-family:arial;
+}
+
+ul, ol {
+	list-style: none;
+}
+
+.nav li a{
+background-color: #000;
+color: #fff;
+text-decoration: none;
+padding: 20px 25px;
+display: block;
+border-radius: 15px;
+}
+.nav li a:hover{
+	background-color:#434343;
+}
+.nav > li{
+
+	float: left;
+}
+
+.nav li ul{
+	display:none;
+	position: absolute;
+	min-width: 140px;
+}
+.nav li:hover >ul{
+	display: block;
+}
+
+
+
+
+
+
+
+
+/*//////////////////////////////////////////////////////////HACER SLIDER AUTOMATICO//////////////////////////////////////////////////*/
+
+/*hcer slider automatico*/
+
+.slider{
+	overflow: hidden;
+	width: 68%;
+	margin: none;
+		float: right;
+
+
+}
+.slider ul{
+	display: flex;
+	padding:0px; 
+	width: 400%;
+	animation:cambio 20s infinite alternate;
+
+
+    
+}
+.slider li{
+	width: 100%;
+	list-style: none;
+	}
+.slider img{
+    
+	padding: 0px;
+	width: 100%;
+	list-style: none;
+	float: left;
+	}
+
+@keyframes cambio{
+	0%{margin-left: 0px;}
+	20%{margin-left: 0px;}
+
+	25%{margin-left: -100%;}
+	45%{margin-left: -100%;}
+
+	50%{margin-left: -200%;}
+	70%{margin-left: -200%;}
+
+	75%{margin-left: -300%;}
+	100%{margin-left: -300%;}
+
+}
+/*//////////////////////////////////////////////////////////FIN DEL  SLIDER AUTOMATICO//////////////////////////////////////////////////*/
+
+
+
+/*////////////////////////////////////////////////////////HACER BIENBENIDA/////////////////////////////////////////////////////*/
+.descripcion{
+	width: 28%;	
+	height: 25%;
+	padding: .0% .5%;
+	border: 1px solid red;
+ position: relative;
+  left: 30px;
+  top: 17px;
+}
+.descripcion p{
+
+text-align:justify;
+font-size: 18px;
+ position: relative;
+ 
+
+
+}
+
+.propaganda{
+	width: 28%;
+		height: 10%;	
+	padding: .1% .5% 1%;
+	border: 1px solid red;
+ position: relative;
+  left: 30px;
+  top: 30px;
+
+}
+.propaganda p{
+	
+color: #66A52E;
+ text-shadow: 2px -5px 5px blue;
+text-align:center;
+font-size: 25px;
+
+}
+
+.foto{
+	width: 28%;	
+	height: 33%;
+	padding: .1% .5%;
+	border: 1px solid red;
+ position: relative;
+  left: 28px;
+  top: 50px;
+}
+
+ .foto div a img{
+	
+	 position: relative;
+	 width: 350px;
+	 height: 200px;
+	 position: relative;
+    top: 0px; /* ajustar los valores para mover la imagen */
+    left: 4px;
+}
+
+ .foto div a img:hover{
+ 	
+	padding: 0px 0px;
+	 position: center;
+	 left: 0px;
+	 width: 100%;
+	 height: 100%;
+	 position: center;
+    
+}
+
+/*/////////////////////////////////////////////////////////////////HACER FOOTER//////////////////////////////////////////////////*/
+
+
+footer{
+	padding: 0px 10px;
+	background: #545454;
+	width: 100%;
+	height: 30%;
+    position: relative;
+    top: 10px;
+	clear: both;
+	
+}
+
+.primero{
+	width: 50%;
+	padding: 0px 0px;
+	font-size: 11px;
+	  float: left;
+
+}
+.primero div {
+	
+    
+	font-size: 14px;
+	text-align: inherit;
+}
+
+section div ul li  {
+	
+   list-style: none;
+	
+
+}
+
+.segundo div {
+	padding: 1px 30px;
+	font-size: 14px;
+	text-align:right;
+
+}
+

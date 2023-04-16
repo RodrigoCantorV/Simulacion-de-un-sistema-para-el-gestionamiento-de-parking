@@ -1,0 +1,345 @@
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/* MODIFICAR ENCABEZADO*/
+
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+header{
+	padding:20px 0px ;
+	width: 100%;
+	height: 5%;
+	max-width: 100%;
+    background: #545454;
+    position:relative;
+    float: left;
+	
+}
+#header{
+	margin: auto;
+	width: 100%;
+	font-family:arial;
+}
+
+ul, ol {
+	list-style: none;
+}
+
+.nav li a{
+background-color: #000;
+color: #fff;
+text-decoration: none;
+padding: 11px 25px;
+display: block;
+border-radius: 15px;
+}
+.nav li a:hover{
+	background-color:#434343;
+}
+.nav > li{
+
+	float: left;
+}
+
+.nav li ul{
+	display:none;
+	position: absolute;
+	min-width: 14px;
+}
+.nav li:hover >ul{
+	display: block;
+
+}
+.nav li ul li{
+	position: relative;
+}
+.nav li img{
+	padding: 5px .5px;
+	width: 110px;
+	height: 60px;
+	position:relative;
+	top: -20px;
+	left: 10px;
+}
+
+.nav li .udec{
+	padding: -5px .5px;
+	width: 140px;
+	height: 70px;
+	position:relative;
+	top: -20px;
+	left: 10px;
+}
+
+/*////////////////////////////////////////////TERMINA MODIFICACION DE MI ENCABEZADO////////////////////////////////////////////////////*/
+
+
+
+
+
+
+
+/*/////////////////////////////////////////////////INICIO DE PANEL LATERAL IZQUIERDO/////////////////////////////////////////////////////*/
+
+
+.menu{
+	width: 15.2%;
+	height: 100%;
+	position: relative;
+
+	background: #4C4848;
+    float: left;
+}
+
+.menu ul{
+	padding-top: 40px;
+	margin-left: -20px;
+	margin-right: 20px;
+}
+
+.menu ul a{
+	text-decoration: none;
+	color: #f2f2f2;
+	font: 15px verdana;
+	display: block;
+	background: blue;
+	margin-bottom: 20px;
+	padding: 10px 20px 10px 45px;
+	border-radius: 15px;
+	transition:background .6s, margin-left .6s, margin-right.6s;
+	-webkit-transition:background .6s, margin-left .6s, margin-right.6s;
+	-moz-transition:background .6s, margin-left .6s, margin-right.6s;
+	-o-transition:background .6s, margin-left .6s, margin-right.6s;
+}
+.menu ul a:hover{
+	margin-right: -40px;
+	margin-left: 25px;
+	background: red;
+
+}
+/*////////////////////////////////////////////////////FIN DE PANEL LATERAL IZQUIERDO//////////////////////////////////////////////////////*/
+
+
+
+
+/*////////////////////////////////////DENTRO DE ESTE CUADRO COLOCAREMOS TODA NUESTRA INFORMACION//////////////////////////////////////////*/
+
+.formato{
+	width: 84.8%;
+	height: 100%;
+	position: static;
+	background: #000;
+    float: left;
+
+}
+
+
+/*////////////////////////////////////FIN DEL CUADRO DONDE COLOCAREMOS TODA NUESTRA INFORMACION//////////////////////////////////////////*/
+
+
+
+
+
+
+/*//////////////////////////////////darle forma a mi tabla de registro de personas externas//////////////////////////////////*/
+
+.perso_afue{
+	border: 5px solid #787272;
+	background:#4C4848;
+	width: 50%;
+	height: 30%; 
+    position: relative;
+    left: 25%;
+    top: 3%;
+color: white;
+}
+
+
+.perso_afue h1{
+	text-align: center;
+
+}
+
+.perso_afue table{
+	border: 5px solid #787272;
+}
+
+
+
+.perso_afue .btn{
+	width: 100px;
+	height: 30px;
+	background: blue;
+
+}
+
+.perso_afue .btn:hover{
+	background: green;
+	
+}
+
+
+.perso_afue input{
+	width: 150px;
+	height: 30px;
+	text-align: center;
+}
+
+.perso_afue p{
+text-align: center;
+padding: 15px;
+color: white;
+}
+
+
+.perso_afue table{
+width: 100%;
+text-align: center;	
+color: white;
+}
+
+
+
+/*FIN DE DARLE FORMA A LA TABLA PARA REGISTRAR A LAS PERSONAS EXTERNAS*/
+
+
+
+
+
+
+
+
+
+/*////////////MODIFICAR TABLA DONDE ME APARENDEN TODOS MIS REGISTROS DE LAS PERSONAS EXTERNAS DE LA UDEC QUE FUERON REGISTRADAS //////////////*/
+
+ .consulta{
+   border: 5px solid #787272;
+
+   background:#4C4848;
+   width: 50%;
+   height: 25.8%;
+   position: relative;
+  left: 25%;
+  top: 8%;
+   overflow: scroll;
+
+}
+
+
+ .consulta h1{
+   text-align:center;
+   color: white;
+}
+
+
+.consulta table {
+width: 100%;
+text-align: center;
+border: 5px solid #787272;
+color: white;
+
+}
+.consulta table tr:hover{
+	background:#E3D3D3;
+	color: red;
+}
+
+/*////////////FIN DE LA MODIFICACION DE MI  TABLA DONDE ME APARENCEN TODOS MIS REGISTROS DE LAS PERSONAS EXTERNAS DE LA UDEC QUE FUERON REGISTRADAS //////////////*/
+
+
+
+
+
+
+/* INICIO DE TABLA PARA MOSTRAR LAS PEROSNAS EXTERNAS A LA UNIVERSIDAD BUSCADAS ESPECIFICAMENTE*/
+
+.deco{
+	border:5px solid #787272;
+	background:#4C4848;
+	color: white;
+    width: 50%;
+    height: 20%;
+    position:relative;
+    left: 25%;
+    top: 15%;
+   
+}
+
+.deco h1{
+	text-align: center;
+   width: 95%;
+}
+
+.deco table{
+	border: 5px solid #787272;
+	text-align: center;
+   width: 100%;
+}
+
+
+/* FIN DE TABLA PARA MOSTRAR LAS PEROSNAS EXTERNAS A LA UNIVERSIDAD BUSCADAS ESPECIFICAMENTE*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*/////////////////////////////////////////////////////////////////HACER FOOTER//////////////////////////////////////////////////*/
+
+
+footer{
+	padding: 0px 10px;
+	background: #545454;
+	width: 98.5%;
+	height: 30%;
+    position: relative;
+    top: 0%;
+	clear: both;
+	
+}
+
+.primero{
+	width: 50%;
+	padding: 0px 0px;
+	font-size: 11px;
+	  float: left;
+
+}
+.primero div {
+	
+    
+	font-size: 14px;
+	text-align: inherit;
+}
+
+section div ul li  {
+	
+   list-style: none;
+	
+
+}
+
+.segundo div {
+	padding: 1px 30px;
+	font-size: 14px;
+	text-align:right;
+
+}
+
+/*///////////////////////////////////////////AQUI TERMINA EL FOOTER*/
